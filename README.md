@@ -58,6 +58,8 @@ https://www.loom.com/share/a249f63b72244d2783b09b57905c3f2f
 ## Dicas para pesquisa
 Os sites das respectivas bibliotecas já contém exemplos práticos.
 
+- **Sobre JSON** : https://www.w3schools.com/js/js_json_intro.asp
+
 Outra dica é ir digitando os dados direto no no navegador o endereço **Star Wars Movies Database API** e observando o resultado. No final das contas a o nosso programa  vai fazer exatamente a mesma coisa, só que quem vai fazer isto para nós será o Python e - melhor.
 
 ## Como eu costumo fazer
