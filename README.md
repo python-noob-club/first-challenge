@@ -1,6 +1,10 @@
 # Desafio!
 O desafio consiste em fazer um programa em Python onde o usuário irá entrar no promopt (eu prefiro e recomendo o Cmder para usuários do Windows).
 
+Mais ou menos nos mesmos moldes da demonstração abaixo:
+
+https://www.loom.com/share/a249f63b72244d2783b09b57905c3f2f
+
 
 # Descrição em BDD (Behavior Driven Development)
 
