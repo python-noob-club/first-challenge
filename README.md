@@ -6,66 +6,14 @@ Mais ou menos nos mesmos moldes da demonstração abaixo:
 https://www.loom.com/share/a249f63b72244d2783b09b57905c3f2f
 
 
-# Descrição em BDD (Behavior Driven Development)
+#Como Usar:
 
-  
- **Funcionalidade**: Listagem de informações de meu(s) filme(s) preferidos dentro da série 'Star Wars'
+Precisara das biblitecas Json, Requests, e Sys instaladas juntas com o Python
 
-&nbsp;&nbsp;&nbsp;&nbsp;Como um usuário do sistema
+Chamara a função no terminal, passando o nome do filme como parametro entre " ".
+ex:
 
-&nbsp;&nbsp;&nbsp;&nbsp;Do meu computador
+consultaStarWars.py "A New Hope"
 
-&nbsp;&nbsp;&nbsp;&nbsp;Eu quero entrar com uma lista de um ou mais filmes da saga 'Star Wars'; Exemplo: **"consultaStarWars.py (espaço) 'The Last Hope'"**
+Assim podera obter algumas curiosidades sobre o filme impressos na tela!
 
-&nbsp;&nbsp;&nbsp;&nbsp;Então deverá ser exibido na tela as informações deste(s) filme(s); Exemplo: **"diretor, ano de lançamento e sinopse"**
-  
- 
-## Descrição em TDD (Test Driven Development)
-
-&nbsp;&nbsp;&nbsp;&nbsp; **Cenário:** Sucesso na transmissão da listagem de filmes
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **Dado** que o usuário faça uma requisição
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Quando** o sistema receber o JSON de resposta
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Entao** o código de status de resposta deve ser igual a 200
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; **Entao** o sistema deve exibir mensagem "HTTP response: 200 (ok)!"
-
-  
-**Cenário:** Sucesso na exibição dos dados
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**Dado** a lista de todos os filmes de Star Wars
-
-&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;**Então** o sistema deve exibir somente as informações de meu(s) filme(s) predileto(s)
-
-
-## Ferramentas de suporte
-
-**Cmder**
-&nbsp;&nbsp;&nbsp;&nbsp; https://cmder.net/
-
-**Star Wars Movies Database API**
-&nbsp;&nbsp;&nbsp;&nbsp;https://swapi.co/
-
-**JSON Python lib**
-&nbsp;&nbsp;&nbsp;&nbsp;https://docs.python.org/3/library/json.html
-
-
-**Requests Python lib**
-&nbsp;&nbsp;&nbsp;&nbsp;https://docs.python.org/3/library/json.html
-
-## Dicas para pesquisa
-Os sites das respectivas bibliotecas já contém exemplos práticos.
-
-- **Sobre JSON** : https://www.w3schools.com/js/js_json_intro.asp
-
-Outra dica é ir digitando os dados direto no no navegador o endereço **Star Wars Movies Database API** e observando o resultado. No final das contas a o nosso programa  vai fazer exatamente a mesma coisa, só que quem vai fazer isto para nós será o Python e - melhor.
-
-## Como eu costumo fazer
-**Para iniciantes:** no próprio Cmder ou IDLE, eu vou digitando os comandos e testando linha por linha para ver se funciona. Depois pego essas linhas e coloco no meu código.
-
-**Para quem já tem um pouco mais de prática/confiança :** outra opção é fazer pequenas partes do código e ir rodando para ver se fuciona (esta é para quem tem mais confiança). A cada novo trecho de código, executa, vê o resultado e ajusta.
-
-Boa sorte e tamo junto!
-Noobs.
